@@ -1,0 +1,76 @@
+{
+  "title": "Simple schedule",
+  "events": [
+    {
+      "type": "model.FunEvent",
+      "data": {
+        "rating": "OK",
+        "cost": 0,
+        "title": "fun event",
+        "startActivity": {
+          "date": {
+            "year": 2018,
+            "month": 1,
+            "day": 12
+          },
+          "time": {
+            "hour": 12,
+            "minute": 25,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "endActivity": {
+          "date": {
+            "year": 2018,
+            "month": 1,
+            "day": 20
+          },
+          "time": {
+            "hour": 12,
+            "minute": 25,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "done": false,
+        "persons": []
+      }
+    },
+    {
+      "type": "model.WorkEvent",
+      "data": {
+        "priority": "MEDIUM",
+        "title": "work event",
+        "startActivity": {
+          "date": {
+            "year": 2018,
+            "month": 1,
+            "day": 13
+          },
+          "time": {
+            "hour": 12,
+            "minute": 25,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "endActivity": {
+          "date": {
+            "year": 2018,
+            "month": 1,
+            "day": 25
+          },
+          "time": {
+            "hour": 12,
+            "minute": 25,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "done": false,
+        "persons": []
+      }
+    }
+  ]
+}
